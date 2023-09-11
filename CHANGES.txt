@@ -1,1 +1,11 @@
 TODO: List here all the changes you made to given template to adapt it to your needs
+
+1. Removed the entire "Trusted By" section as it is not relevant to my personal portfolio
+
+2. Changed the "Get Started" section ot a "Contact Me Section" Changed/removed/added components to better fit the needs of a personal portfolio.
+
+3. Changed to testimonials section to a work history section. I took off the photo and the stars and added the appropriate content. I considered using this for referalls, but ultimately decided to use the section for work experience.
+
+4. I added a section similar to the for education using cards. I feel This is an important thing to show on a portfolio.
+
+5. I reduced the portfolio section to contain 6 projects rather than 9. I feel that 6 is enough to showcase your skills/expertice without overloading.

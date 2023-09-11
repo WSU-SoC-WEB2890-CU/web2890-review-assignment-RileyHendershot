@@ -1,0 +1,45 @@
+@use '../custom'as *;
+@use '../components/mixins'as *;
+
+// Define a variable for the gap between cards
+$card-gap: 2rem;
+
+// Style the education section
+#education {
+  text-align: center; // Center text within the section
+  padding: 2rem; // Add padding to space the title from cards
+}
+
+// Style the h1 element
+h1 {
+  font-size: 3rem; // Adjust the font size to match the "About Me" section
+  font-weight: bold; // Add font-weight
+  margin-bottom: $card-gap; // Add a gap between title and cards
+}
+
+// Create a container for the cards
+.educard-container {
+  display: flex; // Make the container a flex container
+  justify-content: center; // Center the cards horizontally
+  gap: $card-gap; // Add a gap between the cards
+}
+
+// Style each educard
+.educard {
+  width: 18rem;
+  border: none; // Remove any border from the cards
+
+  // Style the card-body within educard
+  .card-body {
+    padding: 1rem; // Add padding to the card body
+  }
+
+  // Style the card-img-top within educard
+  .card-img-top {
+    border: none; // Remove any border from the image
+  }
+
+  .icon-class {
+    font-size: 5rem; // Adjust the font size to make it bigger
+  }
+}
